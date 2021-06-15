@@ -1,0 +1,14 @@
+---
+title: "Stop MacOS apps at login"
+author: "Ali Altıntaş"
+date: "6/15/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Some MacOS apps such as "Pulse Secure Client" may not have an option to disable "Start at login". If you experience such cases, you can use the trick [here](https://stackoverflow.com/a/43555960).
+
+The **apps** folder in this repo contains my favorite *"I don't want you at startup apps"*. Add them to your "Login Items" and have a nice day ;)  
